@@ -1,0 +1,14 @@
+{
+  "name": "sap.m.tutorial.walkthrough",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "Sample: Walkthrough",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

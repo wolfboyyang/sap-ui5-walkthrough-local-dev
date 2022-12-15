@@ -1,0 +1,11 @@
+specVersion: "2.6"
+metadata:
+  name: "sap.m.tutorial.walkthrough"
+type: application
+framework:
+  name: SAPUI5
+  version: "1.109.3"
+resources:
+  configuration:
+    paths:
+      webapp: webapp
