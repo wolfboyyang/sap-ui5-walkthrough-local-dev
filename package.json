@@ -7,8 +7,15 @@
     "start": "ui5 serve",
     "build": "ui5 build"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@ui5/cli": "^2.0.0"
+    "@ui5/cli": "^2.0.0",
+    "ui5-middleware-livereload": "^0.7.0",
+    "ui5-middleware-simpleproxy": "^0.9.1"
+  },
+  "ui5": {
+    "dependencies": [
+      "ui5-middleware-livereload",
+      "ui5-middleware-simpleproxy"
+    ]
   }
 }
